@@ -14,3 +14,6 @@ app/*/*/*/*/__pycache__/
 .env/
 .venv/
 venv/
+
+# vscode
+.vscode/
