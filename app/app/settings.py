@@ -41,11 +41,13 @@ DJANGO_APPS = [
 
 PROJECT_APPS = [
     "core",
+    "user",
 ]
 
 THIRD_PARTY_APPS = [
     "drf_spectacular",
     "rest_framework",
+    "rest_framework.authtoken",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
@@ -154,5 +156,5 @@ SPECTACULAR_SETTINGS = {
     'TITLE': 'RECIPE APP API',
     'DESCRIPTION': 'Recipe API for logging Foods',
     'VERSION': '1.0.0',
-    'SERVE_INCLUDE_SCHEMA': True,
+    'SERVE_INCLUDE_SCHEMA': False,
 }
