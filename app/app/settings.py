@@ -41,6 +41,7 @@ DJANGO_APPS = [
 
 PROJECT_APPS = [
     "core",
+    "recipe",
     "user",
 ]
 

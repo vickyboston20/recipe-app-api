@@ -21,7 +21,8 @@ from drf_spectacular.views import (SpectacularAPIView,
                                    SpectacularSwaggerView)
 
 v1_urls = [
-    path('user/', include('user.api.v1.urls'))
+    path('user/', include('user.api.v1.urls')),
+    path('recipe/', include('recipe.api.v1.urls'))
 ]
 
 urlpatterns = [
